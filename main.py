@@ -77,7 +77,7 @@ def main(t):
 
   #introduces game
   print ("")
-  print "Category:", categoryStrings[userCategory]
+  print ("Category:", categoryStrings[userCategory])
   print ("The game has begun!")
   print ("")
   print ("Can you guess my word?")
@@ -142,7 +142,7 @@ def main(t):
       print ("")
       print ("YOU WIN!")
       print ("")
-      print "Score:", incorrect,"(# of incorrect guesses - a lower score is better!)"
+      print ("Score:", incorrect," of incorrect guesses - a lower score is better!")
       break
     elif incorrect == 6: #ends the game if the user makes 6 incorrect guesses
       print ("")
